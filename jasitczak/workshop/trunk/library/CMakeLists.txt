@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 3.4)
+project(Client)
 
-project(CarRental)
-
-#ustaw we własnej zmiennej SOURCE_FILES zbiór plików źródłowych projektu
 set(SOURCE_FILES
-        src/model/Client.cpp
-        )
-#włącz powyższy zbiór plików do zbudowania programu wykonywalnego Program
-add_executable(CarRental ${SOURCE_FILES})
+    src/model/Client.cpp
+)
 
-#dołącz katalog include podprojektu Program do globalnej listy. Dzięki temu każdy inny podprojekt będzie ten katalog "widział"
-target_include_directories(CarRental PUBLIC include)
+add_library(Client ${SOURCE_FILES})
+
+target_include_directories(Client PUBLIC include/model)
+enable_testing()
+
+include_directories(
+ ${CMAKE_CURRENT_SOURCE_DIR}/include
+)

@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Client.hpp"
+#include "Client.h"
 
 int main()
 {
 	Client Przemo;
 
-    Client *Jacek = new Client;
+    Client *Jacek = new Client();
 	
 		return 0;
 }

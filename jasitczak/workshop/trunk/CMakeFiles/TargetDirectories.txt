@@ -1,8 +1,0 @@
-/home/student/Baja/jasitczak/workshop/trunk/CMakeFiles/rebuild_cache.dir
-/home/student/Baja/jasitczak/workshop/trunk/CMakeFiles/edit_cache.dir
-/home/student/Baja/jasitczak/workshop/trunk/library/CMakeFiles/rebuild_cache.dir
-/home/student/Baja/jasitczak/workshop/trunk/library/CMakeFiles/CarRental.dir
-/home/student/Baja/jasitczak/workshop/trunk/library/CMakeFiles/edit_cache.dir
-/home/student/Baja/jasitczak/workshop/trunk/program/CMakeFiles/rebuild_cache.dir
-/home/student/Baja/jasitczak/workshop/trunk/program/CMakeFiles/Program.dir
-/home/student/Baja/jasitczak/workshop/trunk/program/CMakeFiles/edit_cache.dir

@@ -1,7 +1,8 @@
 #include <iostream>
-#include "Client.hpp"
+#include "Client.h"
 
 class Client{
+public:
 	Client()
     {
         std::cout<<"\nKonstruktor został wywołany";   
