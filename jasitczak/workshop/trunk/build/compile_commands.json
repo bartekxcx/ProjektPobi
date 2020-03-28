@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/student/Baja/jasitczak/workshop/trunk/build/program",
-  "command": "/usr/bin/g++   -I/home/student/Baja/jasitczak/workshop/trunk/program/include -I/home/student/Baja/jasitczak/workshop/trunk/library/include/model  -g3 -gdwarf-4   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/student/Baja/jasitczak/workshop/trunk/program/src/main.cpp",
+  "command": "/usr/bin/g++   -I/home/student/Baja/jasitczak/workshop/trunk/program/include -I/home/student/Baja/jasitczak/workshop/trunk/library/include   -Wall -Wpedantic -Wextra -g3 -gdwarf-4   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/student/Baja/jasitczak/workshop/trunk/program/src/main.cpp",
   "file": "/home/student/Baja/jasitczak/workshop/trunk/program/src/main.cpp"
 },
 {
   "directory": "/home/student/Baja/jasitczak/workshop/trunk/build/library",
-  "command": "/usr/bin/g++   -I/home/student/Baja/jasitczak/workshop/trunk/library/include/model -I/home/student/Baja/jasitczak/workshop/trunk/library/include  -g3 -gdwarf-4   -std=gnu++11 -o CMakeFiles/Client.dir/src/model/Client.cpp.o -c /home/student/Baja/jasitczak/workshop/trunk/library/src/model/Client.cpp",
+  "command": "/usr/bin/g++   -I/home/student/Baja/jasitczak/workshop/trunk/library/include   -Wall -Wpedantic -Wextra -g3 -gdwarf-4   -std=gnu++11 -o CMakeFiles/Client.dir/src/model/Client.cpp.o -c /home/student/Baja/jasitczak/workshop/trunk/library/src/model/Client.cpp",
   "file": "/home/student/Baja/jasitczak/workshop/trunk/library/src/model/Client.cpp"
 }
 ]

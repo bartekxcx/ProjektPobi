@@ -1,17 +1,15 @@
 #include <iostream>
-#include "Client.h"
+#include "model/Client.hpp"
 
-class Client{
-public:
-	Client()
+
+	Client::Client()
     {
         std::cout<<"\nKonstruktor został wywołany";   
 
     }
     
-    ~Client()
+    Client::~Client()
     {
-        std::cout<<"\nDestruktor został wywołany";
+        std::cout<<"\nDestruktor został wywołany\n";
     }
 	
-};

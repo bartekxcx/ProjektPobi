@@ -7,7 +7,7 @@ set(SOURCE_FILES
 
 add_library(Client ${SOURCE_FILES})
 
-target_include_directories(Client PUBLIC include/model)
+target_include_directories(Client PUBLIC include)
 enable_testing()
 
 include_directories(

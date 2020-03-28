@@ -1,1 +1,1 @@
-/usr/bin/g++  -g3 -gdwarf-4   CMakeFiles/Program.dir/src/main.cpp.o  -o Program ../library/libClient.a 
+/usr/bin/g++   -Wall -Wpedantic -Wextra -g3 -gdwarf-4   CMakeFiles/Program.dir/src/main.cpp.o  -o Program ../library/libClient.a 

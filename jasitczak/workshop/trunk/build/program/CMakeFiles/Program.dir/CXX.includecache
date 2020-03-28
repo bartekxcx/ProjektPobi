@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../library/include/model/Client.h
+../library/include/model/Client.hpp
 
 /home/student/Baja/jasitczak/workshop/trunk/program/src/main.cpp
 iostream
 -
-Client.h
-/home/student/Baja/jasitczak/workshop/trunk/program/src/Client.h
+memory
+-
+model/Client.hpp
+/home/student/Baja/jasitczak/workshop/trunk/program/src/model/Client.hpp
 
